@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Un jardín para mi corazon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scene" id="scene">
+  <div class="sun"></div>
+  <div class="hills">
+    <div class="hill far"></div>
+    <div class="hill far2"></div>
+    <div class="hill near"></div>
+  </div>
+  <div class="meadow"><div class="blades"></div></div>
+  <div id="flowerfield"></div>
+  <div id="petals"></div>
+
+  <div class="content">
+    <div class="panel" id="panel">
+      <p class="eyebrow">para vos</p>
+      <h1 class="headline">Te amo con toda mi alma</h1>
+      <p class="sub">Elegí flores amarillas para este jardín porque cada vez que las veo, pienso en tu sonrisa.</p>
+      <p class="hint">Tocá la flor grande 🌼</p>
+    </div>
+  </div>
+
+  <div id="hero-wrap">
+    <button id="hero-flower" aria-label="Tocar la flor para leer un mensaje">
+      <div class="sway" style="width:100%;height:100%;">
+        <div class="petal p1" style="--pcolor:var(--petal-b);"></div>
+        <div class="petal p2" style="--pcolor:var(--petal-b);"></div>
+        <div class="petal p3" style="--pcolor:var(--petal-b);"></div>
+        <div class="petal p4" style="--pcolor:var(--petal-b);"></div>
+        <div class="petal p5" style="--pcolor:var(--petal-b);"></div>
+        <div class="petal p6" style="--pcolor:var(--petal-b);"></div>
+        <div class="fcenter"></div>
+      </div>
+      <div class="hearts" id="hearts"></div>
+    </button>
+  </div>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="card">
+    <button class="close-btn" id="closeBtn" aria-label="Cerrar">×</button>
+    <h2>Para mi amorcito</h2>
+    <p>No hace falta una fecha especial para decirte esto: te amo. Amo tu risa, cómo hacés que los días difíciles se sientan más livianos, y cómo se ve mejor el mundo cuando estás en él.</p>
+    <p>Este jardín es chiquito comparado con todo lo que siento, pero quería regalarte algo que floreciera cada vez que lo abras, como crece esto que siento por vos.</p>
+    <p class="signoff">Con todo mi amor.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
